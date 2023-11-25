@@ -7,9 +7,3 @@ up:
 
 down:
 	cd srcs && docker compose -f docker-compose.yml  down
-
-clean:
-	rm -rf /home/$(USER)/data/db/* /home/$(USER)/data/wp/*
-
-fclean: clean
-	cd srcs && docker rmi $$(docker image ls -q)

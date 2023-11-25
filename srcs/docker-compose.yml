@@ -6,7 +6,7 @@ services:
     build:
       context: ./requirements/mariadb
       dockerfile: Dockerfile
-    container_name: mariadb_c
+    container_name: mariadb
     volumes:
       - mariadb:/var/lib/mysql
     networks:
@@ -16,7 +16,7 @@ services:
       - .env
   nginx:
     image: nginx
-    container_name: nginx_c
+    container_name: nginx
     depends_on:
      - wordpress
     build:
@@ -32,7 +32,7 @@ services:
       - .env
   wordpress:
     image: wordpress
-    container_name: wordpress_c
+    container_name: wordpress
     depends_on:
      - mariadb
     build:
