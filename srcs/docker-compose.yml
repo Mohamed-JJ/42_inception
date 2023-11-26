@@ -28,6 +28,7 @@ services:
       - my_network
     volumes:
       - wordpress:/var/www/html
+    restart: on-failure
     env_file:
       - .env
   wordpress:
@@ -44,6 +45,7 @@ services:
       - wordpress:/var/www/html
     env_file:
       - .env
+    restart: on-failure
 
 volumes:
   mariadb:

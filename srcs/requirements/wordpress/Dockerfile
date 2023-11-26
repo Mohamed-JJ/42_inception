@@ -11,7 +11,7 @@ RUN apt-get install wget -y
 
 
 # in this layer we install the php and the php-fpm and the php-mysql and the mariadb-client
-RUN apt-get install -y php7.3 php7.4 php-fpm php-mysql mariadb-client spawn-fcgi
+RUN apt-get install -y php7.4 php-fpm php-mysql mariadb-client spawn-fcgi
 
 RUN mkdir -p /run/php
 
