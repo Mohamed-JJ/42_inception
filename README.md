@@ -53,6 +53,28 @@
   
       git clone https://github.com/Mohamed-JJ/42_inception
   
+  The .env structure variable (the values can be abything you like)
+
+      MYSQL_DATABASE=*****
+      MYSQL_USER=*****
+      MYSQL_PASSWORD=********
+      MYSQL_ROOT_PASSWORD=*****
+      WORDPRESS_DB_HOST=*******
+      DB_HOSTNAME=********
+
+      WORDPRESS_URL=*****
+      WORDPRESS_TITLE=********
+      WORDPRESS_ADMIN=simo
+      WORDPRESS_ADMIN_PASSWORD=*******
+      WORDPRESS_ADMIN_EMAIL=********
+
+
+      WORDPRESS_URL=*****
+      WORDPRESS_TITLE=*****+
+      WORDPRESS_USER=******
+      WORDPRESS_USER_PASSWORD=********
+      WORDPRESS_USER_EMAIL=*****
+  
 ---
 
 ## License
