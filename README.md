@@ -40,12 +40,13 @@
 ---
 ## Visuals:
 
-  ![]()
+  <!-- ![](https://miro.medium.com/v2/resize:fit:1200/1*XvJ0GDWOAEHNApZvw-dOVQ.png) -->
+  <img src='https://miro.medium.com/v2/resize:fit:1200/1*XvJ0GDWOAEHNApZvw-dOVQ.png'></img>
 
 ---
 
 ## Installation:
-  clone the repository, copy the .env and paste it at the src directory and run the makefile, if you dont have docker in your device you can just install docker desktop if you are in a windows or macos device or if you are on linux machine you can run sudo apt install docker.io && sudo usermod -aG docker $USER, after it the project is ready to be displayed
+  clone the repository, copy the .env and paste it at the src directory and run the makefile, if you dont have docker in your device you can just install docker desktop if you are in a windows or macos device or if you are on linux machine you can run ```sudo apt install docker.io && sudo usermod -aG docker $USER```, after it the project is ready to be displayed
 
   To clone the repo:
   
